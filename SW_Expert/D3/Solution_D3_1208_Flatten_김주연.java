@@ -8,6 +8,23 @@ import java.util.StringTokenizer;
  * 메모리 - 20,784 kb
  * 실행시간 - 146 ms
  * */
+/*
+	강사님 풀이 : 
+	int count[100]
+	int height
+
+	count[height]++
+	min = height[]
+	max = height[]
+
+	높이개수만큼 배열을 생성 ex) count[1] - 높이가 1인 개수
+	min = arr[], max - 가장높은 배열의 index
+	index 의 값을 min -1, max+1 로 변화
+	count[min+1]++, count[max-1]++;
+
+	if(arr[min] -1 == 0) min +1; 
+	if(arr[max] +1 == 0) max -1;
+*/
 public class Solution_D3_1208_Flatten_김주연 {
 	/*
 	 * 1) box 배열을 오름차순으로 정렬 - box[1] : min box[100] : max
