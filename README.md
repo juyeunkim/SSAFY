@@ -13,3 +13,6 @@
 
 ## BaekJOON
 [알고리즘](https://github.com/juyeunkim/SSAFY/tree/master/BaekJoon)
+
+## JUNGOL
+[알고리즘](https://github.com/juyeunkim/SSAFY/tree/master/JUNGOL)
