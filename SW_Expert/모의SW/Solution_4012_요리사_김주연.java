@@ -16,7 +16,7 @@ public class Solution_4012 {
 	 * 2) 조합 경우에서 대칭을 합하여 최소가 되는 값 
 	 * */
 	
-	static int N,result, sum;
+	static int N,result;
 	static int[][] map;
 	static boolean[] visited;
 	public static void main(String[] args) throws NumberFormatException, IOException {
@@ -29,14 +29,13 @@ public class Solution_4012 {
 		for(int t=1; t<=T; t++) {
 			N = Integer.parseInt(br.readLine());
 			map = new int[N+1][N+1];
-			sum = 0;
 			visited = new boolean[N+1];
 			//boolean[] num = new boolean[N+1];
 			for(int i=1; i<=N; i++) {
 				s = br.readLine(); input = s.split(" ");
 				for(int j=1; j<=N; j++) {
 					map[i][j] = Integer.parseInt(input[j-1]);
-					sum += map[i][j];
+					
 				}
 			}
 			
